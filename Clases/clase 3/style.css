@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(190, 157, 197, 0.479);
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: rgb(202, 153, 135);
+    min-height: 10vh;
+    text-align: center;
+    color: rgb(233, 231, 231);
+}
+header > h1{
+    font-size: 5em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+main{
+    padding: 0px;
+}
+
+#comidas{
+    background-color: rgb(204, 179, 171);
+    padding: 2.5%;
+}
+
+#comidas-img-1 {
+    margin: 0px;
+    text-align: center;
+}
+#comidas-img-1 > img {
+    width: 40vw;
+    height: 38vh;
+}
+
+
+footer{
+    background-color: rgb(202, 153, 135);
+    min-height: 10vh;
+    text-align: center; 
+}
+footer > address > a {
+    font-size: 2em;
+    color: rgb(250, 187, 166);
+    text-transform: uppercase;
+}
