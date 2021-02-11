@@ -32,8 +32,50 @@ main{
 #comidas-img-1 > img {
     width: 40vw;
     height: 38vh;
+    transition: 1s;
 }
 
+#comidas-img-1>img:hover{
+    width: 50vw;
+    height: 48vh;
+    transition: 1s;
+}
+
+
+#comidas-img-1 > figcaption{
+    font-size: 1rem;
+}
+
+.titulo-españa {
+    font-size: 2rem;
+    transition: 1s;
+}
+
+
+.titulo-españa:hover {
+    background-color: rgb(202, 153, 135)
+}
+
+.content-fig{
+    width: 50vw;
+    height: 45vh;
+}
+
+
+
+
+
+#Española > ul > li{
+    font-size: 1.5rem;
+}
+#img-paella > img{
+    width: 30vw; 
+    height: 25vh;
+}
+
+#img-paella > figcaption{
+    font-size: 1rem;
+}
 
 footer{
     background-color: rgb(202, 153, 135);
