@@ -1,0 +1,128 @@
+body{
+    background-color: rgba(176, 168, 194, 0.479);
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: rgb(202, 153, 135);
+    min-height: 15vh;
+    text-align: center;
+    color: rgb(233, 231, 231);
+}
+
+header > h1{
+    font-size: 4em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+main{
+    padding: 0px;
+}
+
+#biografia-img-1{
+    margin: 0px;
+    text-align: center;
+}
+
+#biografia-img-1> img {
+    width:30vw;
+    height:48vh;
+    transition: 1s;
+}
+
+#biografia-img-1>img:hover {
+    width: 35vw;
+    height: 52vh;
+    transition: 1s;
+}
+
+#trayectoria-img-2> img{
+    width: 40vw ;
+    height: 57vh;
+    transition: 1s;
+}
+
+#trayectoria-img-2> img:hover{
+    width: 42vw ;
+    height: 59vh;
+    transition: 1s;
+}
+
+#img-recono-individual> img{
+    width: 49vw ;
+    height: 53vh;
+    transition: 1s;
+}
+
+#img-recono-individual> img:hover{
+    width:50vw ;
+    height:56vh;
+    transition: 1s;
+}
+
+#img-familia-3> img{
+    width:45vw ;
+    height: 56vh;
+    transition: 1s ;
+}
+
+#img-familia-3> img:hover{
+    width:47vw ;
+    height: 58vh;
+    transition: 1s ;
+}
+
+.titulo-biografia{
+    font-size: 2rem;
+    transition: 1s;
+    padding: 2.5%;
+}
+
+.titulo-biografia:hover {
+    background-color: rgb(202, 153, 135);
+}
+
+.titulo-trayec-usa{
+    font-size: 2rem;
+    transition: 1s;
+    padding: 2.7%;
+}
+
+.titulo-trayec-usa:hover{
+    background-color: rgb(202, 153, 135);
+}
+
+.titulo-recono-individual{
+    font-size: 2rem;
+    transition: 1s;
+    padding: 2.5%;
+}
+
+.titulo-recono-individual:hover{
+    background-color: rgb(202, 153, 135) ;
+}
+
+.titulo-mamá{
+    font-size: 2rem;
+    transition: 1s;
+    padding: 2.5%;
+}
+
+.titulo-mamá:hover{
+    background-color: rgb(202, 153, 135) ;
+
+}
+
+#trayectoria{
+    padding: 1.5%;
+}
+
+#individual > ul > li{
+    font-size: 1.5rem;
+}
+
+#biografia{
+    padding:3%;
+}
