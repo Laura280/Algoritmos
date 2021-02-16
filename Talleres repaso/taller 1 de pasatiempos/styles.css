@@ -1,0 +1,59 @@
+body{
+    background-color: rgba(122, 101, 126, 0.479);
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: rgb(202, 153, 135) ;
+    min-height: 10vh;
+    text-align: center;
+    color: rgb(233, 231, 231);
+}
+
+header > h1{
+    font-size: 4em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+main{
+    padding: 0px;
+}
+
+#hobbies{
+    background-color: rgba(159, 137, 163, 0.479);
+    padding: 2.5%;
+}
+
+#hobbie-img-1 {
+    margin: 10px;
+    text-align: center;
+}
+
+#hobbie-img-1>img:hover{
+    width: 30vw;
+    height: 35vh;
+    transition: 1s;
+}
+
+#hobbie-img-1 > figcaption{
+    font-size: 0.8rem;
+}
+
+.titulo-futsala {
+    font-size: 2rem;
+    transition: 1s;
+    color: rgb(233, 231, 231);
+    text-transform: uppercase;
+}
+
+.titulo-futsala:hover {
+    background-color: rgb(202, 153, 135)
+}
+
+
+#Española > ul > li{
+    font-size: 1.5rem;
+}
