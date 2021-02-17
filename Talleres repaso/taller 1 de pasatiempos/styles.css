@@ -42,6 +42,54 @@ main{
     font-size: 0.8rem;
 }
 
+#img-pasatiempo >img{
+    width: 30vw;
+    height:40vh ;
+    transition:1s ;
+}
+
+#img-pasatiempo >img:hover {
+    width: 35vw;
+    height: 48vh;
+    transition:1s ;
+}
+
+#img-amigos>img{
+    width:28vw;
+    height:38vh;
+    transition: 1s;
+}
+
+#img-amigos>img:hover{
+    width: 30vw;
+    height: 40vh;
+    transition: 1s;
+}
+
+#img-montarbici>img{
+    width: 28vw;
+    height: 40vh;
+    transition: 1s;
+}
+
+#img-montarbici>img:hover{
+    width:30vw ;
+    height:42vh ;
+    transition: 1s;
+}
+
+#img-peli>img{
+    width:30vw ;
+    height:40vh ;
+    transition:1s;
+}
+
+#img-peli>img:hover{
+    width: 33vw;
+    height: 42vh;
+    transition: 1s;
+}
+
 .titulo-futsala {
     font-size: 2rem;
     transition: 1s;
@@ -53,7 +101,39 @@ main{
     background-color: rgb(202, 153, 135)
 }
 
+.titulo-compartir {
+    font-size: 2rem;
+    transition: 1s;
+    color: rgb(233, 231, 231);
+    text-transform: uppercase;
+}
 
-#Española > ul > li{
+.titulo-compartir:hover{
+    background-color: rgb(202, 153, 135)
+}
+
+.titulo-montarbici {
+    font-size: 2rem;
+    transition: 1s;
+    color: rgb(233, 231, 231);
+    text-transform: uppercase;
+}
+
+.titulo-montarbici:hover{
+    background-color: rgb(202, 153, 135)
+}
+
+.titulo-verpeli {
+    font-size: 2rem;
+    transition: 1s;
+    color: rgb(233, 231, 231);
+    text-transform: uppercase;
+}
+
+.titulo-verpeli {
+    background-color: rgb(202, 153, 135)
+}
+
+#compartir > ul > li{
     font-size: 1.5rem;
 }
