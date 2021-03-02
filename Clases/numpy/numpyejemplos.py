@@ -71,3 +71,24 @@ print(childrenMoms.transpose())
 print (np.sum(inKids))
 print ("#"*30)
 print (np.mean(childrenMoms [1][inKids]))
+#ordenando lista
+listaEdades = [12,234,54,6,123,54]
+#listaEdades.sort()
+print (listaEdades)
+listaEdadesNp = np.array(listaEdades)
+listaEdadesNpord = np.sort(listaEdadesNp)
+print(listaEdadesNpord)
+print("El que más años tiene es ..", max(listaEdades))
+print("El que menos años tiene es ..", min(listaEdades))
+
+#Máximo o mayor y minimo.
+print("El que más años tiene es ..", np.max(listaEdadesNp))
+print("El que máenos años tiene es ..", np.min(listaEdadesNp))
+#mayor a 200
+mayoresADoce = listaEdadesNp > 12
+print (listaEdadesNp[mayoresADoce])
+mayoresAOcho = np.where(listaEdadesNp>8)
+print(mayoresADoce)
+print(mayoresAOcho[0])
+print(listaEdades)
+print(listaEdadesNp[mayoresAOcho[0]])
