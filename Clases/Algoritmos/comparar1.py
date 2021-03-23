@@ -1,5 +1,6 @@
 import time
 import ordenamiento_burbuja as ob
+import ordenamiento_insercion 
 import random as r
 
 lista = []
