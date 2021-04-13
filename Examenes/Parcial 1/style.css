@@ -1,0 +1,58 @@
+body{
+    background-color: rgba(168, 194, 193, 0.479);
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: rgb(135, 181, 202);
+    min-height: 15vh;
+    text-align: center;
+    color: rgb(233, 231, 231);
+}
+
+header > h1{
+    font-size: 4em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+main{
+    padding: 0px;
+}
+
+#noticia1{
+    margin: 3px;
+    text-align: center;
+}
+#noticia1> img {
+    width:30vw;
+    height:48vh;
+    transition: 1s;
+}
+#noticia1> img:hover {
+    width:35vw;
+    height:51vh;
+    transition: 1s;
+}
+
+.titulo-cortometraje{
+    font-size: 2rem;
+    transition: 1s;
+    padding: 2.5%;
+}
+.titulo-cortometraje:hover {
+    background-color: rgb(135, 181, 202);
+}
+
+#Cortometraje{
+    padding: 1%;
+}
+
+#noticia > ul > li{
+    font-size: 1.5rem;
+}
+
+#cortometraje > ul > li{
+    font-size: 1.5rem;
+}
